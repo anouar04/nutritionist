@@ -1,21 +1,4 @@
-PS C:\Users\ANOUAR\Documents\ai-nutritionist-coach> npm run build
-
-> ai-nutritionist-coach@0.0.0 build
-> tsc && vite build
-
-src/services/apiService.ts:75:33 - error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
-  Type 'undefined' is not assignable to type 'string'.
-
-75     const analysis = JSON.parse(response.text) as NutritionalInfo;
-                                   ~~~~~~~~~~~~~
-
-src/services/apiService.ts:153:29 - error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
-  Type 'undefined' is not assignable to type 'string'.
-
-153     const plan = JSON.parse(response.text) as PersonalizedPlan;
-                                ~~~~~~~~~~~~~
-
-
-Found 2 errors in the same file, starting at: src/services/apiService.ts:75
-
-PS C:\Users\ANOUAR\Documents\ai-nutritionist-coach> 
+Failed to load resource: the server responded with a status of 404 ()
+index-9a810d96.js:1   Failed to load resource: the server responded with a status of 404 ()
+vite.svg:1   Failed to load resource: the server responded with a status of 404 ()
+index-250e2845.css:1   Failed to load resource: the server responded with a status of 404 ()
