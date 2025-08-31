@@ -11,7 +11,7 @@ let mockDb: HistoryData = {
 // Fix: Use process.env.API_KEY as per the coding guidelines.
 // IMPORTANT: The API key is sourced from an environment variable for security.
 // Assume this variable is pre-configured, valid, and accessible in the execution context.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI(import.meta.env.VITE_GEMINI_API_KEY);
 
 
 // Function to simulate network delay for mock DB operations

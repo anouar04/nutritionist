@@ -10,7 +10,7 @@ let mockDb: HistoryData = {
 
 // IMPORTANT: The API key is sourced from an environment variable for security.
 // In your hosting environment, you must configure `process.env.API_KEY` with your Google AI API key.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI(import.meta.env.VITE_GEMINI_API_KEY);
 
 // Function to simulate network delay for mock DB operations
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
