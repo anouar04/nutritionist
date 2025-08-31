@@ -1,4 +1,3 @@
 Failed to load resource: the server responded with a status of 404 ()
-index-9a810d96.js:1   Failed to load resource: the server responded with a status of 404 ()
-vite.svg:1   Failed to load resource: the server responded with a status of 404 ()
+index-250e2845.css:1   Failed to load resource: the server responded with a status of 404 ()
 index-250e2845.css:1   Failed to load resource: the server responded with a status of 404 ()
