@@ -1,3 +1,4 @@
 Uncaught Error: An API Key must be set when running in a browser
-    at new $C (index-9a810d96.js:132:78)
-    at index-9a810d96.js:132:1023
+    at new $C (index-351cad75.js:132:78)
+    at index-351cad75.js:132:1023
+vite.svg:1   Failed to load resource: the server responded with a status of 404 ()
